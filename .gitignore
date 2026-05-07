@@ -1,3 +1,6 @@
 .venv
 .env
+*.env
 __pycache__
+**/*_output.txt
+**/*_response.json
