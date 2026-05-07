@@ -1,0 +1,60 @@
+{
+  "content": "",
+  "additional_kwargs": {
+    "refusal": null
+  },
+  "response_metadata": {
+    "token_usage": {
+      "completion_tokens": 354,
+      "prompt_tokens": 2042,
+      "total_tokens": 2396,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 140,
+        "rejected_prediction_tokens": null,
+        "text_tokens": 214
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": null,
+        "image_tokens": 1542,
+        "text_tokens": 500
+      }
+    },
+    "model_provider": "openai",
+    "model_name": "qwen3.5-plus",
+    "system_fingerprint": null,
+    "id": "chatcmpl-b0f436a8-878f-985b-aba5-c7d8142ec0b5",
+    "finish_reason": "tool_calls",
+    "logprobs": null
+  },
+  "type": "ai",
+  "name": null,
+  "id": "lc_run--019dfc0c-247b-7e52-88f7-eabb51a1c7ab-0",
+  "tool_calls": [
+    {
+      "name": "TravelDiaryEntry",
+      "args": {
+        "title": "黄山之巅，迎客松畔的晴空之约",
+        "location": "黄山迎客松",
+        "date": "2024年秋日",
+        "weather": "晴朗，白云悠悠",
+        "mood": "愉悦且振奋",
+        "diary_text": "站在刻着“黄山迎客松”的石碑旁，海拔1860米的风掠过衣角。迎客松舒展枝桠似在微笑，远处云海漫过奇峰，蓝天澄澈得让人心醉。我竖起大拇指，把此刻的雀跃与山风、松涛一同收藏，这便是自然予我的盛大拥抱。"
+      },
+      "id": "call_c33485bce6a149768c3a1fa4",
+      "type": "tool_call"
+    }
+  ],
+  "invalid_tool_calls": [],
+  "usage_metadata": {
+    "input_tokens": 2042,
+    "output_tokens": 354,
+    "total_tokens": 2396,
+    "input_token_details": {},
+    "output_token_details": {
+      "reasoning": 140
+    }
+  }
+}

@@ -10,5 +10,6 @@ dependencies = [
     "langchian>=0.2.5",
     "notebook>=7.5.5",
     "openai>=2.33.0",
+    "pydantic>=2.13.3",
     "python-dotenv>=1.2.2",
 ]
